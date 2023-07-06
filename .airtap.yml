@@ -1,11 +1,10 @@
 providers:
-  - airtap-system
   - airtap-playwright
 ui: mocha-bdd
 browsers:
   - name: chromium
-    version: latest
+    supports:
+      headless: true
   - name: firefox
-    version: latest
-  - name: opera
-    version: latest
+    supports:
+      headless: true
