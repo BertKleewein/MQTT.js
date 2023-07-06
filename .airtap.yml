@@ -5,6 +5,4 @@ browsers:
   - name: chromium
     supports:
       headless: true
-  - name: firefox
-    supports:
-      headless: true
+
